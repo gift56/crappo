@@ -18,7 +18,28 @@ img {
   user-select: none;
   -webkit-user-drag: none;
 }
+
+select {
+  background-image: url(../../public/icon/selectIcon.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
+  cursor: pointer;
+}
+
 ::selection {
   background-color: #3671e9;
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 237, 237);
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
 }
