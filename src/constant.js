@@ -1,17 +1,17 @@
 export const rateInfoData = [
   {
     icon: "/icon/graphIcon.svg",
-    figure: "30",
+    figure: "$30B",
     detail: "Digital Currency Exchanged",
   },
   {
     icon: "/icon/userIcon.svg",
-    figure: "30",
-    detail: "Digital Currency Exchanged",
+    figure: "10M+",
+    detail: "Trusted Wallets Investor",
   },
   {
-    icon: "/icon/graphIcon.svg",
-    figure: "30",
-    detail: "Digital Currency Exchanged",
+    icon: "/icon/worldIcon.svg",
+    figure: "195",
+    detail: "Countries Supported",
   },
 ];
