@@ -15,3 +15,12 @@ export const rateInfoData = [
     detail: "Countries Supported",
   },
 ];
+
+export const currencyRateData = [
+  {
+    coinIcon: "/img/coin1.svg",
+    coinName: "Bitcoin",
+    abbrevate: "BTC",
+    desc: "Digital currency in which a record of transactions is maintained.",
+  },
+];
