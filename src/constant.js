@@ -23,4 +23,16 @@ export const currencyRateData = [
     abbrevate: "BTC",
     desc: "Digital currency in which a record of transactions is maintained.",
   },
+  {
+    coinIcon: "/img/coin2.svg",
+    coinName: "Ethereum",
+    abbrevate: "ETH",
+    desc: "Blockchain technology to create and run decentralized digital applications.",
+  },
+  {
+    coinIcon: "/img/coin3.svg",
+    coinName: "Litecoin",
+    abbrevate: "LTC",
+    desc: "Cryptocurrency that enables instant payments to anyone in the world.",
+  },
 ];
