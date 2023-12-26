@@ -1,5 +1,10 @@
-<script setup></script>
+<script setup>
+import Footer from "@/components/Footer.vue";
+import Header from "@/components/Header.vue";
+</script>
 
 <template>
-  <main></main>
+  <Header />
+  <main>Hello world</main>
+  <Footer />
 </template>
