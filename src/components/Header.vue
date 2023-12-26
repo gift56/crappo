@@ -5,7 +5,7 @@
         <RouterLink to="/">
           <img src="/img/Logo.svg" alt="logo" />
         </RouterLink>
-        <nav class="hidden lg:flex items-center justify-start gap-6">
+        <nav class="hidden lg:flex items-center justify-start gap-8">
           <RouterLink
             v-for="link in navLinks"
             :key="link.text"
@@ -15,7 +15,7 @@
           >
           <button
             type="button"
-            class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-3 rounded-full outline-none bg-primary text-white"
+            class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
           >
             Register
           </button>
@@ -31,7 +31,7 @@
     >
       <nav
         ref="menuRef"
-        className="flex flex-col h-full bg-bodybg gap-5 p-4 w-[250px]"
+        className="flex flex-col h-full bg-dark gap-5 p-4 w-[250px]"
       >
         <div className="w-full flex items-center justify-end">
           <span @click="toggleMenu" className="text-2xl">
@@ -48,7 +48,7 @@
         >
         <button
           type="button"
-          class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-3 rounded-full outline-none bg-primary text-white"
+          class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
         >
           Register
         </button>
