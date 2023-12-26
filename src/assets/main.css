@@ -10,3 +10,15 @@
 body {
   @apply bg-dark;
 }
+
+.container {
+  @apply w-[90%] md:w-[80%] mx-auto;
+}
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+::selection {
+  background-color: #3671e9;
+  color: white;
+}
