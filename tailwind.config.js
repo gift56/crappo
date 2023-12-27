@@ -21,7 +21,7 @@ export default {
       },
       boxShadow: {
         exchangeShad: "0px 0px 4px 0px #391777",
-        cardShad: "0px 40px 40px 0px #391777",
+        cardShad: "0px 0px 5px 0px #391777",
       },
       dropShadow: {
         earnDrop: "0px 20px 200px rgba(57, 23, 119, 0.05)",
