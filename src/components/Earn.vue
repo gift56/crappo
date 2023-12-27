@@ -28,11 +28,9 @@
           }"
           class="font-normal text-base text-textgray text-center"
         >
-          Experience the next generation cryptocurrency
+          Let&#35;s check your hash rate to see how much you will earn today,
           <br class="hidden lg:block" />
-          platform. No financial borders, extra fees, and fake
-          <br class="hidden lg:block" />
-          reviews.
+          Exercitation veniam consequat sunt nostrud amet.
         </p>
       </div>
     </div>
