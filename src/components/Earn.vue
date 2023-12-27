@@ -31,7 +31,8 @@
             }"
             class="font-normal text-base text-textgray text-center"
           >
-            Let&#35;s check your hash rate to see how much you will earn today,
+            {{ `Let’s` }} check your hash rate to see how much you will earn
+            today,
             <br class="hidden lg:block" />
             Exercitation veniam consequat sunt nostrud amet.
           </p>
