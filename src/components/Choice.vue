@@ -76,7 +76,11 @@
               class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4"
             >
               <div class="flex items-start justify-start gap-3">
-
+                <img
+                  src=""
+                  alt="btcimage"
+                  class="w-12 h-12 md:w-20 md:h-20 object-contain rounded-full"
+                />
               </div>
             </div>
           </div>
