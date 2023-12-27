@@ -1,5 +1,7 @@
 <template>
-  <section>Why</section>
+  <section class="w-full relative">
+    
+  </section>
 </template>
 
 <script setup></script>
