@@ -46,10 +46,12 @@
               class="flex items-start justify-center gap-2 text-2xl sm:text-3xl font-bold text-dark group-hover:text-white"
             >
               <span>{{ item.coinName }}</span>
-              <span class="text-base font-medium text-[#BDBDBD] group-hover:text-white/70 md:text-lg">{{
-                item.abbrevate
-              }}</span>
+              <span
+                class="text-base font-medium text-[#BDBDBD] group-hover:text-white/70 md:text-lg"
+                >{{ item.abbrevate }}</span
+              >
             </h4>
+            <p class="w-full sm:max-w-[322px] text-center">{{ item.desc }}</p>
           </div>
         </div>
       </div>
