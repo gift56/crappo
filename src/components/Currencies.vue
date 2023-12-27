@@ -33,7 +33,7 @@
                 delay: 100 * index,
               },
             }"
-            class="group w-full flex flex-col items-center justify-center gap-6 p-4 md:p-6"
+            class="group w-full flex flex-col items-center justify-center gap-6 p-4 md:p-6 bg-white hover:bg-secondary transition-all duration-200"
           ></div>
         </div>
       </div>
