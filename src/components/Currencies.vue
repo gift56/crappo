@@ -51,7 +51,14 @@
                 >{{ item.abbrevate }}</span
               >
             </h4>
-            <p class="w-full sm:max-w-[322px] text-center">{{ item.desc }}</p>
+            <p
+              class="w-full sm:max-w-[322px] font-normal text-base text-textgray2 group-hover:text-white text-center"
+            >
+              {{ item.desc }}
+            </p>
+            <div
+              class="w-16 h-16 border border-secondary/40 rounded-full flex items-center group-hover:gap-3"
+            ></div>
           </div>
         </div>
       </div>
