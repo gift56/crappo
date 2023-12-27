@@ -33,7 +33,7 @@
                   delay: 100,
                 },
               }"
-              class="text-3xl font-bold md:text-4xl"
+              class="text-3xl font-bold md:text-4xl md:leading-[150%]"
             >
               Why you should choose CRAPPO
             </h2>
@@ -49,8 +49,11 @@
               }"
               class="font-normal text-base text-textgray"
             >
-              Experience the next generation cryptocurrency platform. No
-              financial borders, extra fees, and fake reviews.
+              Experience the next generation cryptocurrency
+              <br class="hidden lg:block" />
+              platform. No financial borders, extra fees, and fake
+              <br class="hidden lg:block" />
+              reviews.
             </p>
             <button
               v-motion
