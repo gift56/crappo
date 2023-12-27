@@ -73,10 +73,13 @@
             </button>
           </div>
           <div
-            class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 flex flex-col items-end justify-start gap-5 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
+            class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 flex flex-col items-start justify-end gap-5 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
           >
-        
-        </div>
+            <p class="font-medium text-base text-primary uppercase">
+              ESTIMATED 24 HOUR REVENUE:
+            </p>
+            <h3></h3>
+          </div>
         </div>
       </div>
     </div>
