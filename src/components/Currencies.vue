@@ -1,7 +1,7 @@
 <template>
   <section class="w-full bg-white">
     <div class="container py-40">
-      <div class="w-full flex items-center justify-center flex-col pt-32">
+      <div class="w-full flex items-center justify-center flex-col gap-6 pt-32">
         <h2
           v-motion
           :initial="{ opacity: 0, y: 50 }"
@@ -17,6 +17,7 @@
           Trade securely and market the high <br class="hidden lg:block" />
           growth cryptocurrencies.
         </h2>
+        <div></div>
       </div>
     </div>
   </section>
