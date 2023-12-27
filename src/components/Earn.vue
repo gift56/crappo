@@ -38,11 +38,10 @@
         </div>
         <div
           v-motion
-          :initial="{ opacity: 0, scale: 0.5, y: 50 }"
+          :initial="{ opacity: 0, scale: 0.5 }"
           :visible="{
             opacity: 1,
             scale: 1,
-            y:"12rem",
             transition: {
               duration: 100,
             },
