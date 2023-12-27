@@ -20,7 +20,7 @@ export default {
           "linear-gradient(180deg, rgba(40, 5, 105, 0.00) 46.14%, rgba(51, 7, 133, 0.70) 100%)",
       },
       boxShadow: {
-        exchangeShad: "0px 80px 40px 0px #391777",
+        exchangeShad: "0px 0px 4px 0px #391777",
       },
       dropShadow: {
         earnDrop: "0px 20px 200px rgba(57, 23, 119, 0.05)",
