@@ -50,7 +50,7 @@
           class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl lg:translate-y-48"
         >
           <div
-            class="w-full py-10 px-2 md:px-10 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center md:justify-start gap-2"
+            class="w-full py-10 px-2 md:px-10 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center md:justify-start gap-5"
           >
             <input
               type="text"
@@ -65,6 +65,12 @@
               <option value="">BTC/USD</option>
               <option value="">ETH/BTC</option>
             </select>
+            <button
+              type="button"
+              class="rounded-full w-fit px-3 md:px-6 py-4 outline-none flex items-center justify-center gap-4 border-2 border-primary text-white bg-primary text-sm sm:text-base font-medium capitalize hover:bg-primary/60 group transition-all duration-300"
+            >
+              Calculate
+            </button>
           </div>
           <div
             class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
