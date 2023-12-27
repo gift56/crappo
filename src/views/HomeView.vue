@@ -5,6 +5,7 @@ import Footer from "@/components/Footer.vue";
 import Rate from "@/components/Rate.vue";
 import Why from "@/components/Why.vue";
 import Earn from "@/components/Earn.vue";
+import Currencies from "@/components/Currencies.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Earn from "@/components/Earn.vue";
     <Rate />
     <Why />
     <Earn />
+    <Currencies />
   </main>
   <Footer />
 </template>
