@@ -4,10 +4,17 @@
       <div
         class="w-full py-12 flex flex-wrap lg:flex-nowrap items-center justify-center gap-8 md:gap-12"
       >
-    
-    </div>
+        <img
+          :key="rate.detail"
+          :src="rate.icon"
+          :alt="rate.detail"
+          v-for="rate in rateInfoData"
+        />
+      </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { rateInfoData } from "@/constant";
+</script>
