@@ -40,7 +40,7 @@
                 delay: 100,
               },
             }"
-            class="font-normal md:text-base text-textgray"
+            class="font-normal text-base text-textgray"
           >
             Buy and sell cryptocurrencies, trusted by 10M wallets
             <br class="hidden lg:block" />
