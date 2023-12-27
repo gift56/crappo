@@ -5,7 +5,7 @@
         class="w-full py-12 flex flex-wrap lg:flex-nowrap items-center justify-between gap-8 md:gap-12"
       >
         <div
-          v-for="rate in rateInfoData"
+          v-for="(rate, index) in rateInfoData"
           class="w-fit flex flex-col md:flex-row items-start justify-start gap-3"
         >
           <img :key="rate.detail" :src="rate.icon" :alt="rate.detail" />
