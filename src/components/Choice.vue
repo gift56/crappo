@@ -73,6 +73,15 @@
             class="w-full md:flex-1 relative flex items-center justify-center"
           >
             <div
+              v-motion
+              :initial="{ opacity: 0, scale: 0.5 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  duration: 100,
+                },
+              }"
               class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4 p-6"
             >
               <div class="flex items-start justify-start gap-3">
@@ -95,7 +104,7 @@
                   </p>
                 </div>
                 <div class="w-full h-full">
-                  
+                  <line-chart :data="data" :options="options"></line-chart>
                 </div>
               </div>
             </div>
