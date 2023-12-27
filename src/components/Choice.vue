@@ -12,10 +12,10 @@
               delay: 100,
             },
           }"
-          class="text-2xl sm:text-3xl font-bold md:text-4xl md:leading-[150%] text-center text-dark"
+          class="text-2xl sm:text-3xl font-bold md:text-4xl md:leading-[150%] text-center"
         >
-          Trade securely and market the high <br class="hidden lg:block" />
-          growth cryptocurrencies.
+          Market sentiments, portfolio, and run the infrastructure of your
+          choice
         </h2>
       </div>
     </div>
