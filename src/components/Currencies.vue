@@ -17,10 +17,29 @@
           Trade securely and market the high <br class="hidden lg:block" />
           growth cryptocurrencies.
         </h2>
-        <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-6 items-start justify-start"></div>
+        <div
+          class="w-full grid grid-cols-1 lg:grid-cols-3 gap-6 items-start justify-start"
+        >
+          <div
+            v-for="(item, index) in currencyRateData"
+            v-motion
+            :initial="{ opacity: 0, scale: 0, y: 80 }"
+            :visible="{
+              opacity: 1,
+              scale: 1,
+              y: 0,
+              transition: {
+                delay: 100 * index,
+              },
+            }"
+            class="group w-full"
+          ></div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { currencyRateData } from '@/constant';
+</script>
