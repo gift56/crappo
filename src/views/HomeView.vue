@@ -1,10 +1,13 @@
 <script setup>
-import Footer from "@/components/Footer.vue";
 import Header from "@/components/Header.vue";
+import Hero from "@/components/Hero.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
   <Header />
-  <main>Hello world</main>
+  <main>
+    <Hero />
+  </main>
   <Footer />
 </template>
