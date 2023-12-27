@@ -20,6 +20,11 @@
               alt="whyImage"
             />
           </div>
+          <div
+            class="w-full lg:flex-1 flex flex-col items-start justify-start gap-6"
+          >
+        
+        </div>
         </div>
       </div>
     </div>
