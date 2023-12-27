@@ -1,6 +1,8 @@
 <template>
-  <section class="w-full h-screen flex items-center justify-center bg-white">
-    Currencies
+  <section class="w-full bg-white">
+    <div class="container py-40">
+
+    </div>
   </section>
 </template>
 
