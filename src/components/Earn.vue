@@ -37,11 +37,13 @@
           </p>
         </div>
         <div
-          class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl translate-y-48"
+          class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl lg:translate-y-48"
         >
           <div
             class="w-full py-10 px-2 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl"
-          ></div>
+          >
+        
+        </div>
           <div
             class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
           ></div>
