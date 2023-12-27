@@ -73,8 +73,10 @@
             </button>
           </div>
           <div
-            class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
-          ></div>
+            class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 flex flex-col items-end justify-start gap-5 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
+          >
+        
+        </div>
         </div>
       </div>
     </div>
