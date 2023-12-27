@@ -37,13 +37,21 @@
           </p>
         </div>
         <div
+          v-motion
+          :initial="{ opacity: 0, scale: 0.5, y: 50 }"
+          :visible="{
+            opacity: 1,
+            scale: 1,
+            y:"12rem",
+            transition: {
+              duration: 100,
+            },
+          }"
           class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl lg:translate-y-48"
         >
           <div
             class="w-full py-10 px-2 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center gap-2"
-          >
-        
-        </div>
+          ></div>
           <div
             class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
           ></div>
