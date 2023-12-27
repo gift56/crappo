@@ -7,7 +7,7 @@
         <div
           v-for="(rate, index) in rateInfoData"
           v-motion
-          :initial="{ opacity: 0, scale: 0, y: 50 }"
+          :initial="{ opacity: 0, scale: 0, y: 80 }"
           :visible="{
             opacity: 1,
             scale: 1,
