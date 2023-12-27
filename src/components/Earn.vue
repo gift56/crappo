@@ -51,7 +51,9 @@
         >
           <div
             class="w-full py-10 px-2 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center gap-2"
-          ></div>
+          >
+            <input type="text" placeholder="Enter your hash rate" class="" />
+          </div>
           <div
             class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
           ></div>
