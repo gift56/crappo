@@ -35,7 +35,7 @@
                 delay: 100 * index,
               },
             }"
-            class="group w-full flex flex-col items-center justify-center gap-6 p-4 md:p-6 bg-white hover:bg-secondary transition-all duration-200 rounded-2xl shadow-exchangeShad cursor-pointer"
+            class="group w-full flex flex-col items-center justify-center gap-6 px-4 py-8 md:py-12 md:px-6 bg-white hover:bg-secondary transition-all duration-200 rounded-2xl cursor-pointer"
           >
             <img
               :src="item.coinIcon"
@@ -57,8 +57,22 @@
               {{ item.desc }}
             </p>
             <div
-              class="w-16 h-16 border border-secondary/40 rounded-full flex items-center group-hover:gap-3"
-            ></div>
+              class="w-16 h-16 border border-secondary/40 rounded-full flex items-center justify-center group-hover:gap-3 group-hover:w-fit group-hover:bg-primary group-hover:text-white transition-all duration-300 px-4 relative text-base font-medium md:text-lg overflow-hidden"
+            >
+              <span
+                class="absolute opacity-0 left-0 group-hover:relative group-hover:opacity-100 transition-all duration-300"
+                >Start mining</span
+              >
+              <span
+                class="group-hover:w-6 group-hover:h-6 md:w-10 md:h-10 group-hover:md:w-10 group-hover:md:h-10 bg-white rounded-full flex items-center justify-center transition-all duration-200"
+              >
+                <img
+                  src="/icon/rightArrowIcon.svg"
+                  alt="right arrow"
+                  class="w-full h-full object-cover"
+                />
+              </span>
+            </div>
           </div>
         </div>
       </div>
