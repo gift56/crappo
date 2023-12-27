@@ -50,7 +50,7 @@
           class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl lg:translate-y-48"
         >
           <div
-            class="w-full py-10 px-2 md:px-10 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center md:justify-start gap-5"
+            class="w-full py-10 px-5 md:px-10 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center md:justify-start gap-5"
           >
             <input
               type="text"
@@ -73,12 +73,14 @@
             </button>
           </div>
           <div
-            class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 flex flex-col items-start justify-end gap-5 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
+            class="w-full py-10 px-5 md:px-10 bg-white shadow-exchangeShad flex-1 flex flex-col items-start justify-end gap-5 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
           >
             <p class="font-medium text-base text-primary uppercase">
               ESTIMATED 24 HOUR REVENUE:
             </p>
-            <h3></h3>
+            <h3 class="text-2xl text-dark md:text-3xl font-bold">
+              0.055 130 59 ETH ($1275)
+            </h3>
           </div>
         </div>
       </div>
