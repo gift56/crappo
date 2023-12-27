@@ -49,8 +49,9 @@
               }"
               class="font-normal text-base text-textgray"
             >
-              Get full statistic information about the behaviour of buyers and
-              sellers will help you to make the decision.
+              Get full statistic information about the behaviour of
+              <br class="hidden lg:block" />
+              buyers and sellers will help you to make the decision.
             </p>
             <button
               v-motion
