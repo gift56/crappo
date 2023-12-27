@@ -57,6 +57,14 @@
               placeholder="Enter your hash rate"
               class="text-base font-normal text-dark placeholder:text-dark md:text-lg lg:text-xl w-full border-b border-textgray h-10 outline-none bg-transparent"
             />
+            <select
+              class="text-base font-normal text-dark placeholder:text-dark md:text-lg lg:text-xl w-full border-b border-textgray h-10 outline-none bg-transparent"
+            >
+              <option value="">TH/s</option>
+              <option value="">EUR/USD</option>
+              <option value="">BTC/USD</option>
+              <option value="">ETH/BTC</option>
+            </select>
           </div>
           <div
             class="w-full py-10 px-2 bg-white shadow-exchangeShad flex-1 rounded-br-2xl rounded-bl-2xl mix-blend-overlay"
