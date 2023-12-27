@@ -55,7 +55,7 @@
             <input
               type="text"
               placeholder="Enter your hash rate"
-              class="text-base font-normal text-dark md:text-lg lg:text-xl"
+              class="text-base font-normal text-dark placeholder:text-dark md:text-lg lg:text-xl w-full border-b border-textgray h-10 outline-none bg-transparent"
             />
           </div>
           <div
