@@ -17,6 +17,11 @@
           Market sentiments, portfolio, and run <br class="hidden lg:block" />
           the infrastructure of your choice
         </h2>
+        <div
+          class="w-full flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12"
+        >
+      
+      </div>
       </div>
     </div>
   </section>
