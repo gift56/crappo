@@ -1,6 +1,9 @@
 <template>
-    <section>Rate</section>
-  </template>
-  
-  <script setup></script>
-  
+  <section class="w-full">
+    <div class="container">
+      
+    </div>
+  </section>
+</template>
+
+<script setup></script>
