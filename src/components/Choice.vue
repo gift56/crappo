@@ -90,7 +90,7 @@
                       >BTC</span
                     >
                   </h4>
-                  <p class="">0.00080 BTC</p>
+                  <p class="text-[#f2f2f2bd] text-sm font-normal">0.00080 BTC</p>
                 </div>
               </div>
             </div>
