@@ -17,7 +17,7 @@
           Trade securely and market the high <br class="hidden lg:block" />
           growth cryptocurrencies.
         </h2>
-        <div></div>
+        <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
       </div>
     </div>
   </section>
