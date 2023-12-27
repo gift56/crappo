@@ -35,7 +35,7 @@
                 delay: 100 * index,
               },
             }"
-            class="group w-full flex flex-col items-center justify-center gap-6 px-4 py-8 md:py-12 md:px-6 bg-white hover:bg-secondary transition-all duration-200 rounded-2xl cursor-pointer"
+            class="group w-full flex flex-col items-center justify-center gap-6 px-4 py-8 md:py-12 md:px-6 bg-white hover:bg-secondary transition-all duration-200 rounded-2xl shadow-cardShad cursor-pointer"
           >
             <img
               :src="item.coinIcon"
