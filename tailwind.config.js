@@ -22,6 +22,9 @@ export default {
       boxShadow: {
         exchangeShad: "0px 80px 40px 0px #391777",
       },
+      dropShadow: {
+        earnDrop: "0px 20px 200px rgba(57, 23, 119, 0.05)",
+      },
     },
   },
   plugins: [],

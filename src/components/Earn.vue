@@ -32,7 +32,9 @@
           <br class="hidden lg:block" />
           Exercitation veniam consequat sunt nostrud amet.
         </p>
-        <div class="w-full md:w-[924px] mx-auto bg-white flex"></div>
+        <div
+          class="w-full md:w-[924px] mx-auto bg-white flex flex-col items-start justify-start gap-6 h-fit md:min-h-[371px] round"
+        ></div>
       </div>
     </div>
   </section>
