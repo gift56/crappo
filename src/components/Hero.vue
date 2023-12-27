@@ -8,10 +8,10 @@
           class="w-full lg:flex-1 flex flex-col items-start justify-start gap-6"
         >
           <div
-            class="w-full sm:w-[365px] h-10 flex items-center justify-start bg-gray1 rounded-full gap-3 text-base font-normal"
+            class="w-full sm:w-[365px] h-10 flex items-center justify-start bg-gray1 rounded-full gap-3 text-sm sm:text-base font-normal"
           >
             <span
-              class="w-fit h-full font-medium text-dark bg-white px-4 flex items-center justify-center rounded-full"
+              class="w-fit h-full font-medium text-dark bg-white px-2 md:px-4 flex items-center justify-center rounded-full"
               >75% SAVE</span
             >
             <span>For the Black Friday weekend</span>
@@ -57,7 +57,7 @@
               },
             }"
             type="button"
-            class="rounded-full w-fit px-3 md:px-6 py-4 outline-none flex items-center justify-center gap-4 border-2 border-primary text-white bg-primary text-sm sm:text-base font-medium uppercase hover:bg-primary/60 group transition-all duration-300"
+            class="rounded-full w-fit px-8 py-4 outline-none flex items-center justify-center gap-4 border-2 border-primary text-white bg-primary text-sm sm:text-base font-medium uppercase hover:bg-primary/60 group transition-all duration-300"
           >
             Try for FREE
             <span
