@@ -3,7 +3,25 @@
     <div class="container">
       <div
         class="w-full py-12 flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12"
-      ></div>
+      >
+        <div class="w-full lg:flex-1 flex items-center justify-center gap-6">
+          <div class="w-full md:flex-1">
+            <img
+              v-motion
+              :initial="{ opacity: 0, scale: 0.5 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  duration: 100,
+                },
+              }"
+              src="/img/contentImage.svg"
+              alt="whyImage"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
