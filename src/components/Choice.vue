@@ -75,7 +75,7 @@
             <div
               class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4"
             >
-          
+          <div></div>
           </div>
           </div>
         </div>
