@@ -73,7 +73,7 @@
             class="w-full md:flex-1 relative flex items-center justify-center"
           >
             <div
-              class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gao-4"
+              class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4"
             >
           
           </div>
