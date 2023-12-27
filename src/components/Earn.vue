@@ -3,7 +3,7 @@
     <div class="container">
       <div class="w-full flex items-center justify-center flex-col pt-12">
         <div
-          class="w-full flex flex-col items-center justify-center gap-8 mt-10"
+          class="w-full flex flex-col items-center justify-center gap-8 lg:mt-20"
         >
           <h2
             v-motion
