@@ -83,12 +83,11 @@
                 />
                 <div class="flex flex-col items-start justify-start gap-1">
                   <h4
-                    class="flex items-start justify-center gap-2 text-2xl sm:text-3xl font-bold text-dark group-hover:text-white"
+                    class="flex items-start justify-center gap-2 text-xl sm:text-2xl font-bold text-white"
                   >
-                    <span>{{ item.coinName }}</span>
-                    <span
-                      class="text-base font-medium text-[#BDBDBD] group-hover:text-white/70 md:text-lg"
-                      >{{ item.abbrevate }}</span
+                    <span>Bitcoin</span>
+                    <span class="text-base font-semibold text-[#CFCFCF]"
+                      >BTC</span
                     >
                   </h4>
                 </div>
