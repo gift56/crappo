@@ -46,6 +46,26 @@
             <br class="hidden lg:block" />
             with over $30 billion in transactions.
           </p>
+          <button
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :enter="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 50,
+              },
+            }"
+            type="button"
+            class="rounded-full w-fit px-3 md:px-6 py-4 outline-none flex items-center justify-center gap-4 border-2 border-primary text-white bg-primary text-sm sm:text-base font-medium uppercase hover:bg-primary/60 group transition-all duration-300"
+          >
+            Try for FREE
+            <span
+              class="w-6 h-6 bg-white rounded-full flex items-center justify-center group-hover:ml-3 transition-all duration-200"
+            >
+              <img src="/icon/rightArrowIcon.svg" alt="right arrow" />
+            </span>
+          </button>
         </div>
         <div class="w-full lg:flex-1 flex items-center justify-center gap-6">
           <div class="w-full md:flex-1">
