@@ -22,6 +22,7 @@
         >
           <div
             v-for="(item, index) in currencyRateData"
+            :key="index"
             v-motion
             :initial="{ opacity: 0, scale: 0, y: 80 }"
             :visible="{
@@ -32,7 +33,7 @@
                 delay: 100 * index,
               },
             }"
-            class="group w-full"
+            class="group w-full flex flex-col items-center justify-center"
           ></div>
         </div>
       </div>
@@ -41,5 +42,5 @@
 </template>
 
 <script setup>
-import { currencyRateData } from '@/constant';
+import { currencyRateData } from "@/constant";
 </script>
