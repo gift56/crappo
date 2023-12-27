@@ -32,6 +32,7 @@
           <br class="hidden lg:block" />
           Exercitation veniam consequat sunt nostrud amet.
         </p>
+        <div class="w-full md:w-[924px] mx-auto bg-white flex"></div>
       </div>
     </div>
   </section>
