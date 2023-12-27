@@ -73,14 +73,17 @@
             class="w-full md:flex-1 relative flex items-center justify-center"
           >
             <div
-              class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4"
+              class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4 p-6"
             >
               <div class="flex items-start justify-start gap-3">
                 <img
-                  src=""
+                  src="/img/coin1.svg"
                   alt="btcimage"
-                  class="w-12 h-12 md:w-20 md:h-20 object-contain rounded-full"
+                  class="w-12 h-12 object-contain rounded-full"
                 />
+                <div class="flex flex-col items-start justify-start gap-1">
+                  
+                </div>
               </div>
             </div>
           </div>
