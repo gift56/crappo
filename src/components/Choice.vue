@@ -90,7 +90,12 @@
                       >BTC</span
                     >
                   </h4>
-                  <p class="text-[#f2f2f2bd] text-sm font-normal">0.00080 BTC</p>
+                  <p class="text-[#f2f2f2bd] text-sm font-normal">
+                    0.00080 BTC
+                  </p>
+                </div>
+                <div class="w-full h-full">
+                  
                 </div>
               </div>
             </div>
@@ -101,4 +106,49 @@
   </section>
 </template>
 
-<script></script>
+<script>
+import { Line } from "vue-chartjs";
+
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+} from "chart.js";
+
+ChartJS.register(
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale
+);
+
+export default {
+  extends: Line,
+  data() {
+    return {
+      data: {
+        labels: ["January", "February", "March", "April", "May"],
+        datasets: [
+          {
+            label: "Curved Line",
+            borderColor: "rgb(75, 192, 192)",
+            data: [10, 20, 30, 40, 50], // Example data (should only increase or stay constant)
+            lineTension: 0.4, // Set the lineTension to control curvature (0 is straight, 1 is very curved)
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        // Add more chart options if needed
+      },
+    };
+  },
+};
+</script>
