@@ -2,41 +2,52 @@
   <section id="how" class="w-full">
     <div class="container relative">
       <div
-        class="w-full py-14 flex flex-col items-center justify-center gap-8 md:gap-12"
+        class="w-full py-12 flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12"
       >
-        <div class="w-full flex flex-col items-start justify-start gap-4">
+        <div
+          class="w-full lg:flex-1 flex flex-col items-start justify-start gap-6"
+        >
+          <div
+            class="w-full sm:w-[365px] h-10 flex items-center justify-start bg-gray1 rounded-full gap-3 text-base font-normal"
+          >
+            <span
+              class="w-fit h-full font-medium text-dark bg-white px-4 flex items-center justify-center rounded-full"
+              >75% SAVE</span
+            >
+            <span>For the Black Friday weekend</span>
+          </div>
           <h1
             v-motion
             :initial="{ opacity: 0, y: 50 }"
-            :visible="{
+            :enter="{
               opacity: 1,
               y: 0,
               transition: {
                 delay: 100,
               },
             }"
-            class="text-2xl font-bold text-center md:text-5xl lg:text-6xl"
+            class="text-3xl font-bold md:text-5xl lg:text-6xl"
           >
             Fastest & secure platform to invest in crypto
           </h1>
           <p
             v-motion
             :initial="{ opacity: 0, y: 50 }"
-            :visible="{
+            :enter="{
               opacity: 1,
               y: 0,
               transition: {
                 delay: 100,
               },
             }"
-            class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
+            class="font-normal md:text-base text-textgray"
           >
-            Tincidunt id nibh orci nibh just nulla elementum, sed vel.
+            Buy and sell cryptocurrencies, trusted by 10M wallets
+            <br class="hidden lg:block" />
+            with over $30 billion in transactions.
           </p>
         </div>
-        <div
-          class="w-full flex flex-col md:flex-row items-center justify-center gap-6"
-        >
+        <div class="w-full lg:flex-1 flex items-center justify-center gap-6">
           <div class="w-full md:flex-1">
             <img
               v-motion
@@ -45,11 +56,12 @@
                 opacity: 1,
                 scale: 1,
                 transition: {
-                  duration: 500,
+                  duration: 200,
                 },
               }"
               src="/img/heroImage.svg"
               alt="heroImage"
+              class=""
             />
           </div>
         </div>
