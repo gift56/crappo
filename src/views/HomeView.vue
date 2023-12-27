@@ -6,6 +6,7 @@ import Rate from "@/components/Rate.vue";
 import Why from "@/components/Why.vue";
 import Earn from "@/components/Earn.vue";
 import Currencies from "@/components/Currencies.vue";
+import Choice from "@/components/Choice.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Currencies from "@/components/Currencies.vue";
     <Why />
     <Earn />
     <Currencies />
+    <Choice />
   </main>
   <Footer />
 </template>

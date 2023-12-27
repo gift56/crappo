@@ -14,8 +14,8 @@
           }"
           class="text-2xl sm:text-3xl font-bold md:text-4xl md:leading-[150%] text-center"
         >
-          Market sentiments, portfolio, and run the infrastructure of your
-          choice
+          Market sentiments, portfolio, and run <br class="hidden lg:block" />
+          the infrastructure of your choice
         </h2>
       </div>
     </div>
