@@ -8,6 +8,7 @@ import Earn from "@/components/Earn.vue";
 import Currencies from "@/components/Currencies.vue";
 import Choice from "@/components/Choice.vue";
 import Statistics from "@/components/Statistics.vue";
+import Investment from "@/components/Investment.vue";
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import Statistics from "@/components/Statistics.vue";
     <Currencies />
     <Choice />
     <Statistics />
+    <Investment />
   </main>
   <Footer />
 </template>
