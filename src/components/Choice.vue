@@ -105,6 +105,7 @@
                     </p>
                   </div>
                 </div>
+                <span class="text-sm font-medium text-[#42FFFF]">+125%</span>
               </div>
               <div class="w-full h-[80%]">
                 <CanvasJSChart

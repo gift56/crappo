@@ -47,7 +47,7 @@
               duration: 100,
             },
           }"
-          class="w-full md:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl !translate-y-20 lg:!translate-y-48"
+          class="w-full lg:w-[924px] mx-auto flex flex-col items-start justify-between h-fit md:min-h-[371px] drop-shadow-earnDrop rounded-2xl !translate-y-20 lg:!translate-y-48"
         >
           <div
             class="w-full py-10 px-5 md:px-10 bg-[#FBFCFE] flex-1 rounded-tr-2xl rounded-tl-2xl flex flex-col md:flex-row items-center justify-center md:justify-start gap-5"
