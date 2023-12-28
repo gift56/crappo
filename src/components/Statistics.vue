@@ -5,10 +5,10 @@
         class="w-full flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12"
       >
         <div
-          class="w-full md:flex-1 relative flex flex-col gap-6 items-start justify-start"
+          class="w-full md:flex-1 xl:flex-[2] relative flex flex-col gap-6 items-start justify-start"
         >
           <div
-            class="w-full flex flex-wrap md:flex-nowrap gap-4 md:gap-6 bg-chartBgColor rounded-2xl items-center justify-center py-5"
+            class="w-full flex flex-wrap xl:flex-nowrap gap-4 md:gap-6 bg-chartBgColor rounded-2xl items-center justify-center py-5"
           >
             <div class="w-fit flex items-start justify-start gap-3">
               <span
@@ -25,22 +25,37 @@
             </div>
 
             <div class="flex flex-col items-start justify-start gap-1">
-              <p class="text-sm md:text-base lg:text-lg font-medium">$8256.00</p>
+              <p class="text-sm md:text-base lg:text-lg font-medium">
+                $8256.00
+              </p>
               <span class="text-base font-normal text-textgray2"
                 >Total amount</span
               >
             </div>
             <div class="flex flex-col items-start justify-start gap-1">
-              <p class="text-sm md:text-base lg:text-lg font-medium">$51234.31</p>
-              <span class="text-base font-normal text-textgray2"
-                >High</span
-              >
+              <p class="text-sm md:text-base lg:text-lg font-medium">
+                $51234.31
+              </p>
+              <span class="text-base font-normal text-textgray2">High</span>
             </div>
             <div class="flex flex-col items-start justify-start gap-1">
-              <p class="text-sm md:text-base lg:text-lg font-medium">$1531.80</p>
-              <span class="text-base font-normal text-textgray2"
-                >Low</span
-              >
+              <p class="text-sm md:text-base lg:text-lg font-medium">
+                $1531.80
+              </p>
+              <span class="text-base font-normal text-textgray2">Low</span>
+            </div>
+            <div class="w-fit flex items-start justify-start gap-3">
+              <span
+                class="w-6 h-6 bg-primary/50 text-[#42FFFF] rounded-full flex items-center justify-center"
+                ><i class="fa-solid fa-caret-up"></i
+              ></span>
+              <div class="flex flex-col items-start justify-start gap-1">
+                <p class="text-sm md:text-base lg:text-lg font-normal">
+                  <span class="font-medium text-[#42FFFF]">+7.3%</span>
+                  (+$146)
+                </p>
+                <span class="text-base font-normal text-textgray2">Trends</span>
+              </div>
             </div>
           </div>
           <div class="w-full bg-chartBgColor h-[450px] rounded-2xl">
