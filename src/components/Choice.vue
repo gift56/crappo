@@ -127,11 +127,15 @@
               }"
               class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl"
             >
-              <h4 class="text-lg font-semibold md:text-xl text-white max-w-[146px]">
+              <h4
+                class="text-lg font-semibold md:text-xl text-white max-w-[146px]"
+              >
                 Increase in Trade
               </h4>
-              <h3 class="flex items-center justify-start gap-4 text-xl font-bold md:text-2xl text-white">
-                <span></span>
+              <h3
+                class="flex items-center justify-start gap-4 text-xl font-bold md:text-2xl text-white"
+              >
+                <span>+75%</span>
               </h3>
             </div>
           </div>
