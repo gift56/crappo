@@ -142,6 +142,27 @@
                 >Sell option</RouterLink
               >
             </div>
+            <div
+              v-motion
+              :initial="{ opacity: 0, scale: 0.5 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  duration: 150,
+                },
+              }"
+              class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl"
+            >
+              <h3
+                class="flex items-center justify-start gap-4 text-xl font-bold md:text-2xl text-white"
+              >
+                $15.32
+              </h3>
+              <RouterLink to="/" class="text-base font-normal text-[#F2F2F2]"
+                >Price in dollar</RouterLink
+              >
+            </div>
           </div>
         </div>
       </div>
