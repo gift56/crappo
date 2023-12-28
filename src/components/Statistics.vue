@@ -45,16 +45,18 @@
               <span class="text-base font-normal text-textgray2">Low</span>
             </div>
             <div class="w-fit flex items-start justify-start gap-3">
-              <span
-                class="w-6 h-6 bg-primary/50 text-[#42FFFF] rounded-full flex items-center justify-center"
-                ><i class="fa-solid fa-caret-up"></i
-              ></span>
+              <img
+                src="https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGUlMjBtYW58ZW58MHx8MHx8fDA%3D"
+                alt="trader"
+                class="w-10 h-10 md:w-20 md:h-20 rounded-full border object-cover"
+              />
               <div class="flex flex-col items-start justify-start gap-1">
-                <p class="text-sm md:text-base lg:text-lg font-normal">
-                  <span class="font-medium text-[#42FFFF]">+7.3%</span>
-                  (+$146)
+                <p class="text-sm md:text-base lg:text-lg font-medium">
+                  Andriy Lenin
                 </p>
-                <span class="text-base font-normal text-textgray2">Trends</span>
+                <span class="text-base font-medium text-[#42FFFF]"
+                  >VERIFIED</span
+                >
               </div>
             </div>
           </div>
