@@ -84,24 +84,26 @@
               }"
               class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4 p-6"
             >
-              <div class="flex items-start justify-start gap-3">
-                <img
-                  src="/img/coin1.svg"
-                  alt="btcimage"
-                  class="w-12 h-12 object-contain rounded-full"
-                />
-                <div class="flex flex-col items-start justify-start gap-1">
-                  <h4
-                    class="flex items-start justify-center gap-2 text-xl sm:text-2xl font-bold text-white"
-                  >
-                    <span>Bitcoin</span>
-                    <span class="text-base font-semibold text-[#CFCFCF]"
-                      >BTC</span
+              <div class="w-full">
+                <div class="flex items-start justify-start gap-3">
+                  <img
+                    src="/img/coin1.svg"
+                    alt="btcimage"
+                    class="w-12 h-12 object-contain rounded-full"
+                  />
+                  <div class="flex flex-col items-start justify-start gap-1">
+                    <h4
+                      class="flex items-start justify-center gap-2 text-xl sm:text-2xl font-bold text-white"
                     >
-                  </h4>
-                  <p class="text-[#f2f2f2bd] text-sm font-normal">
-                    0.00080 BTC
-                  </p>
+                      <span>Bitcoin</span>
+                      <span class="text-base font-semibold text-[#CFCFCF]"
+                        >BTC</span
+                      >
+                    </h4>
+                    <p class="text-[#f2f2f2bd] text-sm font-normal">
+                      0.00080 BTC
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="w-full h-[80%]">
