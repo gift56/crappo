@@ -52,6 +52,11 @@
             Learn More
           </button>
         </div>
+        <div
+          class="w-full lg:flex-1 flex items-center justify-center"
+        >
+      
+      </div>
       </div>
     </div>
   </section>
