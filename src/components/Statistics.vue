@@ -10,12 +10,18 @@
           <div
             class="w-full flex flex-wrap md:flex-nowrap gap-4 md:gap-6 bg-chartBgColor rounded-2xl items-center justify-center py-5"
           >
-            <div class="w-fit flex items-start justify-start gap-1">
+            <div class="w-fit flex items-start justify-start gap-3">
               <span
                 class="w-6 h-6 bg-primary/50 text-[#42FFFF] rounded-full flex items-center justify-center"
                 ><i class="fa-solid fa-caret-up"></i
               ></span>
-              <div></div>
+              <div class="flex flex-col items-start justify-start gap-1">
+                <p class="text-sm md:text-base font-normal">
+                  <span class="font-medium text-[#42FFFF]">+7.3%</span>
+                  (+$146)
+                </p>
+                <span class="text-base font-normal text-textgray2">Trends</span>
+              </div>
             </div>
           </div>
           <div class="w-full bg-chartBgColor h-[450px] rounded-2xl">
