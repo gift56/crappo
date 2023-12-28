@@ -115,12 +115,14 @@
                 />
               </div>
             </div>
+            <div class="flex flex-col items-start justify-start gap-4"></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+
 <script>
 export default {
   data() {
