@@ -8,7 +8,7 @@
           class="w-full md:flex-1 relative flex flex-col items-start justify-start"
         >
           <div></div>
-          <div class="w-full">
+          <div class="w-full bg-chartBgColor h-[450px] rounded-2xl">
             <Chart
               :options="{
                 theme: 'dark',

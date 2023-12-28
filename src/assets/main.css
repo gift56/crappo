@@ -50,5 +50,6 @@ a.canvasjs-chart-credit {
 
 #tradingview-chart > div {
   width: 100% !important;
-  height: 100% !important;
+  height: 450px !important;
+  border-radius: 16px;
 }
