@@ -8,6 +8,13 @@
           class="w-full md:flex-1 relative flex flex-col items-start justify-start"
         >
           <div></div>
+          <div class="w-full overflow-hidden">
+            <Chart
+              :options="{
+                theme: 'dark',
+              }"
+            />
+          </div>
         </div>
         <div
           class="w-full lg:flex-1 flex flex-col items-start justify-start gap-6"
@@ -65,4 +72,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { Chart, CryptoMarket, Snaps, Screener } from "vue-tradingview-widgets";
+</script>

@@ -12,7 +12,8 @@
     "@canvasjs/vue-charts": "^1.0.1",
     "@vueuse/motion": "^2.0.0",
     "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-tradingview-widgets": "^1.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

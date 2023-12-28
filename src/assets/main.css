@@ -47,3 +47,8 @@ select {
 a.canvasjs-chart-credit {
   display: none;
 }
+
+#tradingview-chart > div {
+  width: 100% !important;
+  height: 100% !important;
+}
