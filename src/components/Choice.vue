@@ -1,6 +1,6 @@
 <template>
   <section class="w-full bg-secondary">
-    <div class="container py-14">
+    <div class="container py-20">
       <div class="w-full flex items-center justify-center flex-col gap-10">
         <h2
           v-motion
@@ -70,7 +70,7 @@
             </button>
           </div>
           <div
-            class="w-full md:flex-1 relative flex flex-col items-center justify-center"
+            class="w-full md:flex-1 relative flex flex-col items-center justify-center mt-20 md:mt-0"
           >
             <div
               v-motion
@@ -125,7 +125,7 @@
                   duration: 150,
                 },
               }"
-              class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl"
+              class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl absolute bottom-[-50%] left-[50px]"
             >
               <h4
                 class="text-lg font-semibold md:text-xl text-white max-w-[146px]"
@@ -149,10 +149,10 @@
                 opacity: 1,
                 scale: 1,
                 transition: {
-                  duration: 150,
+                  duration: 200,
                 },
               }"
-              class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl"
+              class="flex flex-col items-start justify-start gap-4 py-4 px-8 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl absolute top-[-24%] right-0 md:top-[90%] md:right-[50px]"
             >
               <h3
                 class="flex items-center justify-start gap-4 text-xl font-bold md:text-2xl text-white"
