@@ -70,7 +70,7 @@
             </button>
           </div>
           <div
-            class="w-full md:flex-1 relative flex items-center justify-center"
+            class="w-full md:flex-1 relative flex flex-col items-center justify-center"
           >
             <div
               v-motion
