@@ -115,7 +115,18 @@
                 />
               </div>
             </div>
-            <div class="flex flex-col items-start justify-start gap-4"></div>
+            <div
+              v-motion
+              :initial="{ opacity: 0, scale: 0.5 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  duration: 150,
+                },
+              }"
+              class="flex flex-col items-start justify-start gap-4 p-4 w-fit bg-[#491F98] backdrop-blur-[125px] rounded-2xl"
+            ></div>
           </div>
         </div>
       </div>
