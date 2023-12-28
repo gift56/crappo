@@ -105,7 +105,11 @@
                 </div>
               </div>
               <div class="w-full h-[80%]">
-                
+                <CanvasJSChart
+                  :options="options"
+                  :style="styleOptions"
+                  @chart-ref="chartInstance"
+                />
               </div>
             </div>
           </div>
@@ -114,7 +118,90 @@
     </div>
   </section>
 </template>
-
 <script>
-
+export default {
+  data() {
+    return {
+      chart: null,
+      options: {
+        animationEnabled: true,
+        // exportEnabled: true,
+        backgroundColor: "transparent",
+        axisX: {
+          title: "", // Empty title
+          gridThickness: 0, // Hide grid lines
+          tickLength: 0, // Hide tick marks
+          lineColor: "#35068C", // Set the color for the Y-axis line
+          tickColor: "#35068C", // Set the color for Y-axis ticks
+          labelFormatter: function () {
+            return ""; // Empty labels
+          },
+        },
+        axisY: {
+          title: "", // Empty title
+          gridThickness: 0, // Hide grid lines
+          tickLength: 0, // Hide tick marks
+          lineColor: "#35068C", // Set the color for the Y-axis line
+          tickColor: "#35068C", // Set the color for Y-axis ticks
+          labelFormatter: function () {
+            return ""; // Empty labels
+          },
+        },
+        data: [
+          {
+            type: "spline", // Set type to 'spline' for a spline line
+            yValueFormatString: "#,###.#%", // Format Y-axis labels as percentage
+            color: "transparent",
+            lineThickness: 0, // Set line thickness to 0 to hide the line
+            markerSize: 0, // Set marker size to 0 to hide markers
+            dataPoints: [
+              { label: "Dec", y: 50 },
+              { label: "Nov", y: 45 },
+              { label: "Oct", y: 30 },
+              { label: "Sep", y: 45 },
+              { label: "Aug", y: 55 },
+              { label: "Jul", y: 70 },
+              { label: "Jun", y: 65 },
+              { label: "May", y: 70 },
+              { label: "Apr", y: 80 },
+              { label: "Mar", y: 50 },
+              { label: "Feb", y: 80 },
+              { label: "Jan", y: 85 },
+            ],
+          },
+          {
+            type: "area", // Set type to 'area' for a filled area
+            yValueFormatString: "#,###.#%", // Format Y-axis labels as percentage
+            fillOpacity: 0.3, // Set the fill opacity for the area chart
+            color: "#42FFFF", // Set the fill color for the area chart
+            markerSize: 0, // Set marker size to 0 to hide markers
+            dataPoints: [
+              { label: "Dec", y: 50 },
+              { label: "Nov", y: 45 },
+              { label: "Oct", y: 30 },
+              { label: "Sep", y: 45 },
+              { label: "Aug", y: 55 },
+              { label: "Jul", y: 70 },
+              { label: "Jun", y: 65 },
+              { label: "May", y: 70 },
+              { label: "Apr", y: 80 },
+              { label: "Mar", y: 50 },
+              { label: "Feb", y: 80 },
+              { label: "Jan", y: 85 },
+            ],
+          },
+        ],
+      },
+      styleOptions: {
+        width: "100%",
+        height: "100%",
+      },
+    };
+  },
+  methods: {
+    chartInstance(chart) {
+      this.chart = chart;
+    },
+  },
+};
 </script>

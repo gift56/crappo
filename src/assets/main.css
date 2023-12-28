@@ -43,3 +43,7 @@ select {
 ::-webkit-scrollbar {
   width: 4px;
 }
+
+a.canvasjs-chart-credit {
+  display: none;
+}
