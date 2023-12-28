@@ -137,6 +137,7 @@
               >
                 <span>+75%</span>
               </h3>
+              <RouterLink to="/" class="text-base font-normal text-[#F2F2F2]">Sell option</RouterLink>
             </div>
           </div>
         </div>
