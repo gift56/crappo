@@ -84,7 +84,7 @@
               }"
               class="w-full md:w-[500px] h-[298px] rounded-2xl bg-chartBgColor flex flex-col items-start justify-start gap-4 p-6"
             >
-              <div class="w-full">
+              <div class="w-full flex items-center justify-between gap-4">
                 <div class="flex items-start justify-start gap-3">
                   <img
                     src="/img/coin1.svg"
