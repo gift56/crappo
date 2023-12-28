@@ -8,7 +8,7 @@
           class="w-full md:flex-1 relative flex flex-col items-start justify-start"
         >
           <div></div>
-          <div class="w-full overflow-hidden">
+          <div class="w-full">
             <Chart
               :options="{
                 theme: 'dark',
@@ -73,5 +73,5 @@
 </template>
 
 <script setup>
-import { Chart, CryptoMarket, Snaps, Screener } from "vue-tradingview-widgets";
+import { Chart } from "vue-tradingview-widgets";
 </script>
