@@ -32,13 +32,16 @@ export const currencyRateData = [
     abbrevate: "ETH",
     desc: "Blockchain technology to create and run decentralized digital applications.",
     price: "$156.83",
-    exchangeRate: "+7.3%",
-    volume: "$3420214",
+    exchangeRate: "-0.9%",
+    volume: "$1812350",
   },
   {
     coinIcon: "/img/coin3.svg",
     coinName: "Litecoin",
     abbrevate: "LTC",
     desc: "Cryptocurrency that enables instant payments to anyone in the world.",
+    price: "$8535",
+    exchangeRate: "+8.2%",
+    volume: "$5820399",
   },
 ];
