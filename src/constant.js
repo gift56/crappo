@@ -22,12 +22,18 @@ export const currencyRateData = [
     coinName: "Bitcoin",
     abbrevate: "BTC",
     desc: "Digital currency in which a record of transactions is maintained.",
+    price: "$6750",
+    exchangeRate: "+7.3%",
+    volume: "$3420214",
   },
   {
     coinIcon: "/img/coin2.svg",
     coinName: "Ethereum",
     abbrevate: "ETH",
     desc: "Blockchain technology to create and run decentralized digital applications.",
+    price: "$156.83",
+    exchangeRate: "+7.3%",
+    volume: "$3420214",
   },
   {
     coinIcon: "/img/coin3.svg",

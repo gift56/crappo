@@ -53,7 +53,7 @@
           </button>
         </div>
         <div
-          class="w-full lg:flex-1 flex items-center justify-center"
+          class="w-full lg:flex-1 flex items-center justify-start relative"
         >
       
       </div>
