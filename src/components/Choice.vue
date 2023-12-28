@@ -136,8 +136,11 @@
                 class="flex items-center justify-start gap-4 text-xl font-bold md:text-2xl text-white"
               >
                 <span>+75%</span>
+                <i class="fa-solid fa-arrow-up text-[#FD8589] text-2xl"></i>
               </h3>
-              <RouterLink to="/" class="text-base font-normal text-[#F2F2F2]">Sell option</RouterLink>
+              <RouterLink to="/" class="text-base font-normal text-[#F2F2F2]"
+                >Sell option</RouterLink
+              >
             </div>
           </div>
         </div>
