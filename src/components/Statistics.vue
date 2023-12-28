@@ -8,7 +8,7 @@
           class="w-full md:flex-1 xl:flex-[2] relative flex flex-col gap-6 items-start justify-start"
         >
           <div
-            class="w-full flex flex-wrap xl:flex-nowrap gap-4 md:gap-6 bg-chartBgColor rounded-2xl items-center justify-center py-5"
+            class="w-full flex flex-wrap xl:flex-nowrap gap-4 md:gap-6 bg-chartBgColor rounded-2xl items-center justify-around xl:justify-center px-3 py-5"
           >
             <div class="w-fit flex items-start justify-start gap-3">
               <span
@@ -97,11 +97,8 @@
             }"
             class="font-normal text-base text-textgray"
           >
-            View all mining related information in realtime, at any
-            <br class="hidden lg:block" />
-            point at any location and decide which polls you want
-            <br class="hidden lg:block" />
-            to mine in.
+            View all mining related information in realtime, at any point at any
+            location and decide which polls you want to mine in.
           </p>
           <button
             v-motion
