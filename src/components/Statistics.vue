@@ -16,12 +16,19 @@
                 ><i class="fa-solid fa-caret-up"></i
               ></span>
               <div class="flex flex-col items-start justify-start gap-1">
-                <p class="text-sm md:text-base font-normal">
+                <p class="text-sm md:text-base lg:text-lg font-normal">
                   <span class="font-medium text-[#42FFFF]">+7.3%</span>
                   (+$146)
                 </p>
                 <span class="text-base font-normal text-textgray2">Trends</span>
               </div>
+            </div>
+
+            <div class="flex flex-col items-start justify-start gap-1">
+              <p class="text-sm md:text-base lg:text-lg font-medium">$8256.00</p>
+              <span class="text-base font-normal text-textgray2"
+                >Total amount</span
+              >
             </div>
           </div>
           <div class="w-full bg-chartBgColor h-[450px] rounded-2xl">
