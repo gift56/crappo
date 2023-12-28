@@ -30,6 +30,18 @@
                 >Total amount</span
               >
             </div>
+            <div class="flex flex-col items-start justify-start gap-1">
+              <p class="text-sm md:text-base lg:text-lg font-medium">$51234.31</p>
+              <span class="text-base font-normal text-textgray2"
+                >High</span
+              >
+            </div>
+            <div class="flex flex-col items-start justify-start gap-1">
+              <p class="text-sm md:text-base lg:text-lg font-medium">$1531.80</p>
+              <span class="text-base font-normal text-textgray2"
+                >Low</span
+              >
+            </div>
           </div>
           <div class="w-full bg-chartBgColor h-[450px] rounded-2xl">
             <Chart
