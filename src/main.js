@@ -10,5 +10,6 @@ const app = createApp(App);
 
 app.use(router);
 app.use(MotionPlugin);
+app.use(CanvasJSChart);
 
 app.mount("#app");
