@@ -93,38 +93,4 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Webflow",
-    footerLinks: [
-      {
-        href: "/",
-        text: "Styleguide",
-      },
-      {
-        href: "/",
-        text: "Licensing",
-      },
-      {
-        href: "/",
-        text: "Changelog",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    footerLinks: [
-      {
-        href: "/",
-        text: "Twitter",
-      },
-      {
-        href: "/",
-        text: "Facebook",
-      },
-      {
-        href: "/",
-        text: "Instagram",
-      },
-    ],
-  },
 ];
