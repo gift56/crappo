@@ -50,6 +50,14 @@
             </div>
           </div>
         </div>
+
+        <div
+          class="w-full flex flex-wrap items-center justify-between gap-5 pt-2 mt-8"
+        >
+          <p class="text-sm md:text-base font-normal text-white">
+            © 2021 CRAPPO. All rights reserved
+          </p>
+        </div>
       </div>
     </div>
   </footer>
