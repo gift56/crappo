@@ -19,7 +19,8 @@
             }"
             class="text-2xl font-bold md:text-3xl md:leading-[150%]"
           >
-            Grow your profit and track your investments
+            Grow your profit and track <br class="hidden xl:block" />
+            your investments
           </h2>
           <p
             v-motion
@@ -33,8 +34,11 @@
             }"
             class="font-normal text-base text-textgray"
           >
-            Use advanced analytical tools. Clear TradingView charts let you
-            track current and historical profit investments.
+            Use advanced analytical tools. Clear TradingView
+            <br class="hidden xl:block" />
+            charts let you track current and historical profit
+            <br class="hidden xl:block" />
+            investments.
           </p>
           <button
             v-motion
