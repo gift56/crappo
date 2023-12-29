@@ -45,3 +45,78 @@ export const currencyRateData = [
     volume: "$5820399",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "Quick Link",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Products",
+      },
+      {
+        href: "/",
+        text: "About",
+      },
+      {
+        href: "/",
+        text: "Features",
+      },
+      {
+        href: "/",
+        text: "Contact",
+      },
+    ],
+  },
+  {
+    title: "Blog",
+    footerLinks: [
+      {
+        href: "/blog#products",
+        text: "Products",
+      },
+      {
+        href: "/blog#products",
+        text: "Technology",
+      },
+      {
+        href: "/blog#products",
+        text: "Crypto",
+      },
+    ],
+  },
+  {
+    title: "Webflow",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Styleguide",
+      },
+      {
+        href: "/",
+        text: "Licensing",
+      },
+      {
+        href: "/",
+        text: "Changelog",
+      },
+    ],
+  },
+  {
+    title: "Social Media",
+    footerLinks: [
+      {
+        href: "/",
+        text: "Twitter",
+      },
+      {
+        href: "/",
+        text: "Facebook",
+      },
+      {
+        href: "/",
+        text: "Instagram",
+      },
+    ],
+  },
+];

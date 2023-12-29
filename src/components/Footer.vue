@@ -12,6 +12,9 @@
               <img src="/img/Logo.svg" alt="logo" />
             </RouterLink>
           </div>
+          <div
+            class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+          ></div>
         </div>
       </div>
     </div>
