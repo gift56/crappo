@@ -54,7 +54,9 @@
         </div>
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative"
-        ></div>
+        >
+          <div></div>
+        </div>
       </div>
     </div>
   </section>
