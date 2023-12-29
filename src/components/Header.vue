@@ -17,7 +17,7 @@
             type="button"
             class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
           >
-            Register
+            Connet Wallet
           </button>
         </nav>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
@@ -50,7 +50,7 @@
           type="button"
           class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
         >
-          Register
+          Connet Wallet
         </button>
       </nav>
     </div>
@@ -102,10 +102,6 @@ const navLinks = [
   {
     href: "#contact",
     text: "Contact",
-  },
-  {
-    href: "/",
-    text: "Login",
   },
 ];
 </script>
