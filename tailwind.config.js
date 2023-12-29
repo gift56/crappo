@@ -18,6 +18,7 @@ export default {
           "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0.00) 99.92%)",
         chartLinear:
           "linear-gradient(180deg, rgba(40, 5, 105, 0.00) 46.14%, rgba(51, 7, 133, 0.70) 100%)",
+        contactLinear: "linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%)",
       },
       boxShadow: {
         exchangeShad: "0px 0px 4px 0px #391777",
