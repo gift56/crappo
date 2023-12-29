@@ -9,6 +9,7 @@ import Currencies from "@/components/Currencies.vue";
 import Choice from "@/components/Choice.vue";
 import Statistics from "@/components/Statistics.vue";
 import Investment from "@/components/Investment.vue";
+import Contact from "@/components/Contact.vue";
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import Investment from "@/components/Investment.vue";
     <Choice />
     <Statistics />
     <Investment />
+    <Contact />
   </main>
   <Footer />
 </template>
