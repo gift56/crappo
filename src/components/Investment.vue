@@ -57,6 +57,15 @@
           </button>
         </div>
         <div
+          v-motion
+          :initial="{ opacity: 0, scale: 0.5 }"
+          :visible="{
+            opacity: 1,
+            scale: 1,
+            transition: {
+              duration: 150,
+            },
+          }"
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
           <div
