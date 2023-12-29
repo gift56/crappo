@@ -12,12 +12,35 @@
               <img src="/img/Logo.svg" alt="logo" />
             </RouterLink>
           </div>
-          <div
-            class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-          ></div>
+          <div class="w-full grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div
+              v-for="footerLink in footerLinks"
+              :key="footerLink.title"
+              class="w-full flex flex-col items-start justify-start gap-8"
+            >
+              <h4 class="text-base font-medium text-white md:text-lg">
+                {{ footerLink.title }}
+              </h4>
+              <nav class="w-full flex flex-col items-start justify-start gap-4">
+                <RouterLink
+                  :to="link.href"
+                  v-for="link in footerLink.footerLinks"
+                  class="text-sm font-medium md:text-base text-textgray hover:text-primary transition-all duration-300"
+                  >{{ link.text }}</RouterLink
+                >
+              </nav>
+            </div>
+            <div
+              class="w-full flex flex-col items-start justify-start gap-8"
+            >
+          
+          </div>
+          </div>
         </div>
       </div>
     </div>
   </footer>
 </template>
-<script setup></script>
+<script setup>
+import { footerLinks } from "@/constant";
+</script>
