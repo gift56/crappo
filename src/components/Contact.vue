@@ -3,7 +3,7 @@
     <div class="container py-14">
       <div class="w-full flex items-center justify-center">
         <div
-          class="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[216px] rounded-2xl bg-contactBg bg-no-repeat items-start justify-start gap-6 p-6"
+          class="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[216px] rounded-2xl bg-contactBg bg-no-repeat bg-cover items-start justify-start gap-6 p-6"
         >
           <div
             class="w-full lg:flex-1 flex flex-col items-start justify-start gap-6"
