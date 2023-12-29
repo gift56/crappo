@@ -94,3 +94,18 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const footerPayment = [
+  {
+    to: "/",
+    icon: "/img/payment1.svg",
+  },
+  {
+    to: "/",
+    icon: "/img/payment2.svg",
+  },
+  {
+    to: "/",
+    icon: "/img/payment3.svg",
+  },
+];
