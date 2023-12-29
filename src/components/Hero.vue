@@ -1,6 +1,6 @@
 <template>
   <section class="w-full">
-    <div class="container relative">
+    <div class="container">
       <div
         class="w-full py-12 flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-12"
       >
@@ -67,23 +67,23 @@
             </span>
           </button>
         </div>
-        <div class="w-full lg:flex-1 flex items-center justify-center gap-6">
-          <div class="w-full md:flex-1">
-            <img
-              v-motion
-              :initial="{ opacity: 0, scale: 0.5 }"
-              :enter="{
-                opacity: 1,
-                scale: 1,
-                transition: {
-                  duration: 200,
-                },
-              }"
-              src="/img/heroImage.svg"
-              alt="heroImage"
-              class=""
-            />
-          </div>
+        <div
+          class="w-full lg:flex-1 flex items-center justify-center gap-6 relative"
+        >
+          <img
+            v-motion
+            :initial="{ opacity: 0, scale: 0.5 }"
+            :enter="{
+              opacity: 1,
+              scale: 1,
+              transition: {
+                duration: 200,
+              },
+            }"
+            src="/img/heroImage.svg"
+            alt="heroImage"
+            class=""
+          />
         </div>
       </div>
     </div>
