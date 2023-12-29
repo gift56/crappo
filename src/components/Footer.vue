@@ -30,11 +30,11 @@
                 >
               </nav>
             </div>
-            <div
-              class="w-full flex flex-col items-start justify-start gap-8"
-            >
-          
-          </div>
+            <div class="w-full flex flex-col items-start justify-start gap-8">
+              <h3 class="text-2xl font-bold md:text-3xl md:leading-[150%]">
+                We accept following payment systems
+              </h3>
+            </div>
           </div>
         </div>
       </div>
