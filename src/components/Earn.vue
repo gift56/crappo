@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full relative">
+  <section id="features" class="w-full relative">
     <div class="container">
       <div class="w-full flex items-center justify-center flex-col pt-12">
         <div
