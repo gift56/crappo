@@ -31,12 +31,22 @@
               </nav>
             </div>
           </div>
-          <div class="w-full md:w-[50%] flex flex-col items-start justify-start gap-8">
+          <div
+            class="w-full md:w-[50%] flex flex-col items-start justify-start gap-8"
+          >
             <h3 class="text-2xl font-bold md:text-2xl md:leading-[150%]">
               We accept following payment systems
             </h3>
-            <div class="w-full flex flex-wrap md:flex-nowrap items-center justify-start gap-6">
-              <img src="" alt="">
+            <div
+              class="w-full flex flex-wrap md:flex-nowrap items-center justify-start gap-6"
+            >
+              <RouterLink
+                :to="link.to"
+                :key="index"
+                v-for="(item, index) in footerPayment"
+              >
+                <img :src="item.icon" alt="payment" />
+              </RouterLink>
             </div>
           </div>
         </div>
@@ -45,5 +55,5 @@
   </footer>
 </template>
 <script setup>
-import { footerLinks } from "@/constant";
+import { footerLinks, footerPayment } from "@/constant";
 </script>
