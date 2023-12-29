@@ -69,19 +69,27 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Blog",
+    title: "Resources",
     footerLinks: [
       {
-        href: "/blog#products",
-        text: "Products",
+        href: "/",
+        text: "Download Whitepapper",
       },
       {
-        href: "/blog#products",
-        text: "Technology",
+        href: "/",
+        text: "Smart Token",
       },
       {
-        href: "/blog#products",
-        text: "Crypto",
+        href: "/",
+        text: "Blockchain Explorer",
+      },
+      {
+        href: "/",
+        text: "Crypto API",
+      },
+      {
+        href: "/",
+        text: "Interest",
       },
     ],
   },
