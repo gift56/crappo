@@ -111,7 +111,7 @@ export const footerPayment = [
 ];
 
 export const socialIcons = [
-  "fa-facebook",
+  "fa-facebook-f",
   "fa-instagram",
   "fa-youtube",
   "fa-twitter",
