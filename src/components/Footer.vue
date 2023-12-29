@@ -35,6 +35,7 @@
             <h3 class="text-2xl font-bold md:text-2xl md:leading-[150%]">
               We accept following payment systems
             </h3>
+            <div class="w-full flex flex-wrap md:flex-nowrap items-center justify-start gap-6"></div>
           </div>
         </div>
       </div>
