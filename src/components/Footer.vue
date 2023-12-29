@@ -41,9 +41,9 @@
               class="w-full flex flex-wrap md:flex-nowrap items-center justify-start gap-6"
             >
               <RouterLink
-                :to="link.to"
-                :key="index"
                 v-for="(item, index) in footerPayment"
+                :key="index"
+                :to="item.to"
               >
                 <img :src="item.icon" alt="payment" />
               </RouterLink>
