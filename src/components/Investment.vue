@@ -55,7 +55,7 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
-          <div class="flex items-center justify-end gap-6">
+          <div class="flex items-center justify-end gap-6 md:gap-14 w-full">
             <span class="text-sm font-semibold md:text-base">Price</span>
             <span class="text-sm font-semibold md:text-base">Change</span>
             <span class="text-sm font-semibold md:text-base">Volume (24h)</span>
