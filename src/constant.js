@@ -51,19 +51,19 @@ export const footerLinks = [
     title: "Quick Link",
     footerLinks: [
       {
-        href: "/",
+        href: "#products",
         text: "Products",
       },
       {
-        href: "/",
+        href: "#about",
         text: "About",
       },
       {
-        href: "/",
+        href: "#features",
         text: "Features",
       },
       {
-        href: "/",
+        href: "#contact",
         text: "Contact",
       },
     ],
