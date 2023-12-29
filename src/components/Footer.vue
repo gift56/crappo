@@ -9,9 +9,7 @@
             class="flex flex-col items-start justify-start w-full sm:w-[50%]"
           >
             <RouterLink to="/" class="select-none">
-              <h2 class="font-dm text-2xl font-bold text-primary md:text-2xl">
-                banquee.
-              </h2>
+              <img src="/img/Logo.svg" alt="logo" />
             </RouterLink>
           </div>
         </div>
