@@ -57,7 +57,7 @@
           <p class="text-sm md:text-base font-normal text-white">
             © 2021 CRAPPO. All rights reserved
           </p>
-          <div class="flex items-center justify-center gap-4">
+          <div class="flex items-center justify-center gap-8">
             <i
               v-for="icon in socialIcons"
               class="text-lg cursor-pointer fa-brands"
