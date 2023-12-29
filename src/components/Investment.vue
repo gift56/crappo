@@ -53,10 +53,8 @@
           </button>
         </div>
         <div
-          class="w-full lg:flex-1 flex items-center justify-start relative"
-        >
-      
-      </div>
+          class="w-full lg:flex-1 flex flex-col items-center justify-start relative"
+        ></div>
       </div>
     </div>
   </section>
