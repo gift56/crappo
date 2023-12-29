@@ -55,7 +55,7 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative"
         >
-          <div></div>
+          <div v-for="item in currencyRateData"></div>
         </div>
       </div>
     </div>
