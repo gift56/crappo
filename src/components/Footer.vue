@@ -12,7 +12,7 @@
               <img src="/img/Logo.svg" alt="logo" />
             </RouterLink>
           </div>
-          <div class="w-full grid grid-cols-2 xl:grid-cols-3 gap-6">
+          <div class="w-full grid grid-cols-2 gap-6">
             <div
               v-for="footerLink in footerLinks"
               :key="footerLink.title"
@@ -30,11 +30,11 @@
                 >
               </nav>
             </div>
-            <div class="w-full flex flex-col items-start justify-start gap-8">
-              <h3 class="text-2xl font-bold md:text-xl md:leading-[150%]">
-                We accept following payment systems
-              </h3>
-            </div>
+          </div>
+          <div class="w-full md:w-[50%] flex flex-col items-start justify-start gap-8">
+            <h3 class="text-2xl font-bold md:text-2xl md:leading-[150%]">
+              We accept following payment systems
+            </h3>
           </div>
         </div>
       </div>
