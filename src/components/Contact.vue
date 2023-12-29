@@ -41,7 +41,9 @@
           </div>
           <div
             class="w-full lg:flex-1 flex flex-col lg:flex-row items-center justify-start gap-6"
-          ></div>
+          >
+        
+        </div>
         </div>
       </div>
     </div>
