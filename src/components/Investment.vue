@@ -65,8 +65,20 @@
             :key="item.coinName"
             class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5 py-2 hover:bg-chartBgColor px-2 hover:md:translate-x-10 hover:scale-110 transition-all duration-300"
           >
-        
-        </div>
+            <div class="flex items-start justify-start gap-3">
+              <img
+                :src="item.coinIcon"
+                :alt="item.coinName"
+                class="w-10 h-10 object-contain rounded-full"
+              />
+              <div class="flex flex-col items-start justify-start gap-1">
+                <h4 class="text-lg sm:text-xl font-bold text-white uppercase">
+                  BTC
+                </h4>
+                <p class="text-[#f2f2f2bd] text-sm sm:text-base font-normal">Bitcoin</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
