@@ -53,9 +53,14 @@
           </button>
         </div>
         <div
-          class="w-full lg:flex-1 flex flex-col items-center justify-start relative"
+          class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
-          <div v-for="item in currencyRateData" :key="item.coinName" class=""></div>
+          <div class=""></div>
+          <div
+            v-for="item in currencyRateData"
+            :key="item.coinName"
+            class=""
+          ></div>
         </div>
       </div>
     </div>
