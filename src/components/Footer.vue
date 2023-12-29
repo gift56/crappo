@@ -57,11 +57,18 @@
           <p class="text-sm md:text-base font-normal text-white">
             © 2021 CRAPPO. All rights reserved
           </p>
+          <div class="flex items-center justify-center gap-4">
+            <i
+              v-for="icon in socialIcons"
+              class="text-lg cursor-pointer fa-brands"
+              :class="icon"
+            ></i>
+          </div>
         </div>
       </div>
     </div>
   </footer>
 </template>
 <script setup>
-import { footerLinks, footerPayment } from "@/constant";
+import { footerLinks, footerPayment,socialIcons } from "@/constant";
 </script>

@@ -109,3 +109,11 @@ export const footerPayment = [
     icon: "/img/payment3.svg",
   },
 ];
+
+export const socialIcons = [
+  "fa-facebook",
+  "fa-instagram",
+  "fa-youtube",
+  "fa-twitter",
+  "fa-linkedin",
+];
