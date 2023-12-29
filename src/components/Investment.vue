@@ -95,7 +95,20 @@
                 </p>
               </div>
             </div>
-            <p class="text-base font-normal "></p>
+            <p class="text-base font-normal text-[#f2f2f2] text-center">
+              {{ item.price }}
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <span
+                class="w-6 h-6 rounded-full flex items-center justify-center"
+                :class="getExchangeRateClass(item.exchangeRate)"
+                ><i class="fa-solid fa-caret-up"></i
+              ></span>
+              <span>{{ item.exchangeRate }}</span>
+            </div>
+            <p class="text-base font-normal text-[#f2f2f2] text-center">
+              {{ item.volume }}
+            </p>
           </div>
         </div>
       </div>
@@ -103,6 +116,26 @@
   </section>
 </template>
 
-<script setup>
+<script>
 import { currencyRateData } from "@/constant";
+export default {
+  data() {
+    return {
+      currencyRateData,
+    };
+  },
+  methods: {
+    getExchangeRateClass(exchangeRate) {
+      // Customize this method based on your specific requirements
+      if (exchangeRate.includes("+")) {
+        return "bg-primary/50 text-[#8FFFBE]";
+      } else if (exchangeRate.includes("-")) {
+        return "bg-[#ff76769c] text-[#FF7676]";
+      } else {
+        // Add a default class if needed
+        return "text-white";
+      }
+    },
+  },
+};
 </script>
