@@ -55,7 +55,9 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
-          <div class=""></div>
+          <div class="flex items-center justify-end gap-6">
+            <span class="">Price</span>
+          </div>
           <div
             v-for="item in currencyRateData"
             :key="item.coinName"
