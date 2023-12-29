@@ -63,8 +63,10 @@
           <div
             v-for="item in currencyRateData"
             :key="item.coinName"
-            class=""
-          ></div>
+            class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5"
+          >
+        
+        </div>
         </div>
       </div>
     </div>
