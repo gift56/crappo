@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-white">
+  <section id="products" class="w-full bg-white">
     <div class="container py-40">
       <div
         class="w-full flex items-center justify-center flex-col gap-10 pt-32"
