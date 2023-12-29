@@ -55,7 +55,9 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
-          <div class="flex items-center justify-end gap-6 md:gap-14 w-full mb-3">
+          <div
+            class="flex items-center justify-end gap-6 md:gap-14 w-full mb-3"
+          >
             <span class="text-sm font-semibold md:text-base">Price</span>
             <span class="text-sm font-semibold md:text-base">Change</span>
             <span class="text-sm font-semibold md:text-base">Volume (24h)</span>
@@ -73,9 +75,11 @@
               />
               <div class="flex flex-col items-start justify-start gap-1">
                 <h4 class="text-lg sm:text-xl font-bold text-white uppercase">
-                  BTC
+                  {{ item.abbrevate }}
                 </h4>
-                <p class="text-[#f2f2f2bd] text-sm sm:text-base font-normal">Bitcoin</p>
+                <p class="text-[#f2f2f2bd] text-sm sm:text-base font-normal">
+                  {{ item.coinName }}
+                </p>
               </div>
             </div>
           </div>
