@@ -63,7 +63,7 @@
           <div
             v-for="item in currencyRateData"
             :key="item.coinName"
-            class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5 py-2 hover:bg-chartBgColor px-2 hover:md:translate-x-10 hover:scale-110 transition-all duration-300"
+            class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5 py-2 hover:bg-[#4610AD] rounded-2xl px-2 hover:md:-translate-x-10 hover:scale-110 transition-all duration-300"
           >
             <div class="flex items-start justify-start gap-3">
               <img
