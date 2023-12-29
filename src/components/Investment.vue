@@ -55,7 +55,7 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative rounded-2xl bg-chartBgColor py-6 px-3"
         >
-          <div class="flex items-center justify-end gap-6 md:gap-14 w-full">
+          <div class="flex items-center justify-end gap-6 md:gap-14 w-full mb-3">
             <span class="text-sm font-semibold md:text-base">Price</span>
             <span class="text-sm font-semibold md:text-base">Change</span>
             <span class="text-sm font-semibold md:text-base">Volume (24h)</span>
@@ -63,7 +63,7 @@
           <div
             v-for="item in currencyRateData"
             :key="item.coinName"
-            class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5 py-2 hover:bg-[#4610AD] rounded-2xl px-2 hover:md:-translate-x-10 hover:scale-110 transition-all duration-300"
+            class="w-full flex flex-wrap md:flex-nowrap items-center justify-between gap-5 py-2 hover:bg-[#4610AD] rounded-2xl px-4 hover:md:-translate-x-10 hover:scale-110 transition-all duration-300"
           >
             <div class="flex items-start justify-start gap-3">
               <img
