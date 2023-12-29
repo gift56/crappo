@@ -42,8 +42,18 @@
           <div
             class="w-full lg:flex-1 flex flex-col lg:flex-row items-center justify-start gap-6"
           >
-        
-        </div>
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="text-base font-normal text-white placeholder:text-white md:text-lg lg:text-xl w-full border-b border-textgray h-10 outline-none bg-transparent"
+            />
+            <button
+              type="button"
+              class="rounded-full w-fit px-8 py-4 outline-none flex items-center justify-center gap-4 border-2 border-white text-dark bg-white text-sm sm:text-base font-medium capitalize hover:bg-white/60 group transition-all duration-300"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
     </div>
