@@ -55,11 +55,13 @@
         <div
           class="w-full lg:flex-1 flex flex-col items-center justify-start relative"
         >
-          <div v-for="item in currencyRateData"></div>
+          <div v-for="item in currencyRateData" :key="item.coinName" class=""></div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { currencyRateData } from "@/constant";
+</script>
