@@ -130,7 +130,7 @@ export default {
       if (exchangeRate.includes("+")) {
         return "bg-primary/50 text-[#8FFFBE]";
       } else if (exchangeRate.includes("-")) {
-        return "bg-[#ff76769c] text-[#FF7676]";
+        return "bg-[#ff767649] text-[#FF7676] rotate-180";
       } else {
         // Add a default class if needed
         return "text-white";
