@@ -22,8 +22,6 @@ const onClickConnect = () => {
     connectWallet();
   }
 };
-
-console.log(connectedWallet);
 </script>
 
 <template>
