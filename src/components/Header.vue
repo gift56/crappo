@@ -13,12 +13,7 @@
             class="text-base font-normal hover:text-primary transition-all duration-300"
             >{{ link.text }}</RouterLink
           >
-          <button
-            type="button"
-            class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
-          >
-            Connet Wallet
-          </button>
+          <ConnectBtn />
         </nav>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
@@ -46,12 +41,7 @@
           class="text-base font-normal uppercase"
           >{{ link.text }}</RouterLink
         >
-        <button
-          type="button"
-          class="flex items-center justify-center gap-6 w-fit h-10 border border-primary px-5 rounded-full outline-none bg-primary text-white"
-        >
-          Connet Wallet
-        </button>
+        <ConnectBtn />
       </nav>
     </div>
   </header>
@@ -59,6 +49,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import ConnectBtn from "./ConnectBtn.vue";
 
 const isMenuOpen = ref(false);
 const menuRef = ref(null);
