@@ -20,6 +20,7 @@ const wcInitOptions = {
   /**
    * Project ID associated with [WalletConnect account](https://cloud.walletconnect.com)
    */
+  
   projectId: import.meta.env.VITE_WALLET_CONNECT_PROJECT_ID,
   /**
    * Chains required to be supported by all wallets connecting to your DApp
