@@ -85,7 +85,6 @@ init({
 });
 </script>
 
-
 <template>
   <RouterView />
 </template>
