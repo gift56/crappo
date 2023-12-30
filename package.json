@@ -11,8 +11,10 @@
   "dependencies": {
     "@canvasjs/vue-charts": "^1.0.1",
     "@vueuse/motion": "^2.0.0",
+    "@web3-onboard/coinbase": "^2.2.6",
     "@web3-onboard/injected-wallets": "^2.10.10",
     "@web3-onboard/vue": "^2.7.12",
+    "@web3-onboard/walletconnect": "^2.5.2",
     "ethers": "^6.9.1",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",

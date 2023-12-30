@@ -2,7 +2,8 @@
 import { RouterView } from "vue-router";
 import { init } from "@web3-onboard/vue";
 import injectedModule, { ProviderLabel } from "@web3-onboard/injected-wallets";
-import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
+import coinbaseWalletModule from "@web3-onboard/coinbase";
+import walletConnectModule from "@web3-onboard/walletconnect";
 
 const infuraKey = import.meta.env.VITE_INFURA_KEY;
 const rpcUrl = `https://mainnet.infura.io/v3/${infuraKey}`;
@@ -12,12 +13,11 @@ const injected = injectedModule({
     [ProviderLabel.Detected]: ["Android", "desktop"],
   },
 });
-const coinbase = new CoinbaseWalletSDK({
-  darkMode: false,
-});
+const coinbaseWalletModule = coinbaseWalletModule();
+const walletConnect = walletConnectModule();
 
 init({
-  wallets: [injected, coinbase],
+  wallets: [coinbaseWalletModule, walletConnect, injected],
   chains: [
     {
       id: "0x1",
